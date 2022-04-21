@@ -41,15 +41,15 @@
 
 	&__book {
 		a {
-			span {
-				display: inline-block;
-				vertical-align: middle;
+			display: inline-block;
+
+			&:hover {
+				text-decoration: underline;
 			}
 
 			img {
 				vertical-align: middle;
 				width: 30px;
-				padding-right: 5px;
 			}
 		}
 	}

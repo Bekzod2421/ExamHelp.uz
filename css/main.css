@@ -110,13 +110,15 @@ h6 {
   margin-bottom: 10px;
 }
 
-.right__book a span {
+.right__book a {
   display: inline-block;
-  vertical-align: middle;
+}
+
+.right__book a:hover {
+  text-decoration: underline;
 }
 
 .right__book a img {
   vertical-align: middle;
   width: 30px;
-  padding-right: 5px;
 }
