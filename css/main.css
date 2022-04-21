@@ -109,3 +109,14 @@ h6 {
 .right .tests__variant .form-check {
   margin-bottom: 10px;
 }
+
+.right__book a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right__book a img {
+  vertical-align: middle;
+  width: 30px;
+  padding-right: 5px;
+}
