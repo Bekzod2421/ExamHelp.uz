@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>ExamHelp.uz</title>
+</head>
+
+<body>
+	<div class="wrap">
+		<a href="#" class="logo">
+			<img src="img/logo2.png" alt="">
+		</a>
+		<ul class="menu">
+			<li>Tel: <a href="tel:+998998146396">+998998146396</a></li>
+			<li>Email: <a href="mailto:yusupov.mgreat@gmail.com">yusupov.mgreat@gmail.com</a></li>
+		</ul>
+	</div>
+	<div class="wrap">
+		<div class="vid">
+			<video controls controlslist="nodownload">
+				<source src="video/video.mp4" type="video/mp4">
+				<source src="video/video.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		referrerpolicy="no-referrer"></script>
+	<script>
+		$(function () {
+			$(".vid").bind('contextmenu', function () { return false; })
+
+		})
+
+	</script>
+</body>
+
+</html>
