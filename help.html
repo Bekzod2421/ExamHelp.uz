@@ -25,58 +25,39 @@
 						Profil
 					</button>
 					<ul class="dropdown-menu" aria-labelledby="Profildropdown">
-						<li><a class="dropdown-item" href="#">Mening kurslarim</a></li>
+						<li><a class="dropdown-item" href="cources.html">Mening kurslarim</a></li>
 						<li><a class="dropdown-item" href="edit.html">Profil sozlamalari</a></li>
-						<li><a class="dropdown-item" href="help.html">Yordam</a></li>
+						<li><a class="dropdown-item" href="#">Yordam</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container my-4">
-		<div class="row">
+		<div class="row my-3">
 			<div class="col">
-				<h2 class="text-center fs-4 fw-bold">Mening kurslarim</h2>
+				<h2 class="text-center fs-4 fw-bold">Murojaat yuborish</h2>
 			</div>
 		</div>
-		<div class="row my-4 mycource">
-			<div class="col-12 col-sm-6 col-md-4">
-				<div class="card mb-4 mycource__item">
-					<img src="img/01.jpg" class="card-img-top" alt="Kurs 1">
-					<div class="card-body">
-						<h5 class="card-title fw-bold">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-							card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+		<div class="row justify-content-center">
+			<div class="col-md-7 col-sm-10 col-lg-6 fs-5">
+				<form>
+					<div class="mb-4">
+						<label for="yordam-mavzu" class="form-label">Mavzu</label>
+						<input type="text" class="form-control" id="yordam-mavzu" placeholder="Mavzu" required>
 					</div>
-				</div>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4">
-				<div class="card mb-4">
-					<img src="img/01.jpg" class="card-img-top" alt="Kurs 1">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eos dignissimos
-							perspiciatis quisquam? Ut explicabo pariatur totam molestiae perferendis harum molestias provident
-							praesentium fugit aut, eligendi ipsum expedita, numquam sit.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+					<div class="mb-4">
+						<label for="yordam-matn" class="form-label">Murojaat matni</label>
+						<textarea class="form-control" id="yordam-matn" rows="8"></textarea>
 					</div>
-				</div>
+					<button type="submit" class="btn btn-primary me-3">Yuborish</button>
+					<input type="reset" class="btn btn-warning me-3" value="Tozalash">
+					<input type="button" class="btn btn-danger" value="Qaytish">
+				</form>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4">
-				<div class="card mb-4">
-					<img src="img/01.jpg" class="card-img-top" alt="Kurs 1">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-							card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	</div>
+
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
